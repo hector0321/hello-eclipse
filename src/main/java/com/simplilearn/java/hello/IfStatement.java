@@ -1,3 +1,5 @@
+package com.simplilearn.java.hello;
+
 import java.util.Scanner;
 
 

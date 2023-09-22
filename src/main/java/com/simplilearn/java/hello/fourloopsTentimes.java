@@ -1,21 +1,17 @@
 package com.simplilearn.java.hello;
 
-public class calculatorHW {
+public class fourloopsTentimes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Calculator calc = new calculator ();
-	
 		
 		
-		
-		
-		
-		
-		
-		
-		
+		for (int i = 0; i < 10; i++)
+		{
+			System.out.println("Mr. mitchel is cool.");
+			
+		}
 	}
 
 }
