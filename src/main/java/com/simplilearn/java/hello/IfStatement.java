@@ -17,11 +17,14 @@ public class IfStatement {
 		if (age < 0) {
 			System.out.println("invalid age input. Age cannot be negative.");
 			
-		}else if (age < 16) {System.out.println("you cant drive.");
+		}else if (age < 16) {
+			System.out.println("you cant drive.");
 		
-		} else if (age >= 16 && age <= 17) {System.out.println("you can drive nut not vote.");
+		} else if (age >= 16 && age <= 17) {
+			System.out.println("you can drive but not vote.");
 		
-		} else if (age >= 18 && age <=24) {System.out.println("you can vote but not rent a car");
+		} else if (age >= 18 && age <=24) {
+			System.out.println("you can vote but not rent a car");
 		
 		} else {
 			System.out.println("you can do pretty much anything.");
